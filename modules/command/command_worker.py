@@ -19,8 +19,11 @@ from ..common.modules.logger import logger
 def command_worker(
     connection: mavutil.mavfile,
     target: command.Position,
-    args,  # Place your own arguments here
+    # Place your own arguments here
     # Add other necessary worker arguments here
+    controller: worker_controller.WorkerController,
+    tele_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
     """
     Worker process.
@@ -49,7 +52,14 @@ def command_worker(
     # =============================================================================================
     # Instantiate class object (command.Command)
 
+    cmd = command.Command.create(connection, target, local_logger)
+
     # Main loop: do work.
+    while not controller.is_exit_requested():
+        if not tele_queue.queue.empty():
+            tele_data = tele_queue.queue.get()
+            res = cmd.run(tele_data)
+            output_queue.queue.put(res)
 
 
 # =================================================================================================

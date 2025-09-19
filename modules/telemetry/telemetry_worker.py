@@ -18,8 +18,10 @@ from ..common.modules.logger import logger
 # =================================================================================================
 def telemetry_worker(
     connection: mavutil.mavfile,
-    args,  # Place your own arguments here
+    # Place your own arguments here
     # Add other necessary worker arguments here
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
     """
     Worker process.
@@ -48,7 +50,19 @@ def telemetry_worker(
     # =============================================================================================
     # Instantiate class object (telemetry.Telemetry)
 
+    tele = telemetry.Telemetry(connection, local_logger)
+
     # Main loop: do work.
+
+    while not controller.is_exit_requested():
+        data = tele.run()
+
+        if data is not None:
+            output_queue.queue.put(data)
+            local_logger.info("telemetry data has been sent to command worker")
+
+        else:
+            local_logger.warning("no telemetry data could be sent to command worker")
 
 
 # =================================================================================================

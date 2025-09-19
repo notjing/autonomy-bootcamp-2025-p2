@@ -76,29 +76,40 @@ class Telemetry:
     def create(
         cls,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
+        # Put your own arguments here
         local_logger: logger.Logger,
-    ):
+    ) -> object | None:
         """
         Falliable create (instantiation) method to create a Telemetry object.
         """
+
+        try:
+            Telemetry(cls.__private_key, connection, local_logger)
+            local_logger.info("Telemetry object created")
+
+        except Exception as e:
+            local_logger.error(f"Failed to create Telemetry object: {e}")
+
         pass  # Create a Telemetry object
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
+        # Put your own arguments here
         local_logger: logger.Logger,
     ) -> None:
         assert key is Telemetry.__private_key, "Use create() method"
 
         # Do any intializiation here
 
+        self.connection = connection
+        self.local_logger = local_logger
+
     def run(
         self,
-        args,  # Put your own arguments here
-    ):
+        # Put your own arguments here
+    ) -> TelemetryData | None:
         """
         Receive LOCAL_POSITION_NED and ATTITUDE messages from the drone,
         combining them together to form a single TelemetryData object.
@@ -106,6 +117,46 @@ class Telemetry:
         # Read MAVLink message LOCAL_POSITION_NED (32)
         # Read MAVLink message ATTITUDE (30)
         # Return the most recent of both, and use the most recent message's timestamp
+
+        initial_time = time.time()
+        pos_ned = None
+        attitude = None
+
+        while time.time() - initial_time < 1:
+            if pos_ned is None:
+                pos_ned = self.connection.recv_match(
+                    type="LOCAL_POSITION_NED", blocking=False, timeout=0.05
+                )
+                if pos_ned is not None:
+                    self.local_logger.info("LOCAL_POSITION_NED info received")
+
+            if attitude is None:
+                attitude = self.connection.recv_match(type="ATTITUDE", blocking=False, timeout=0.05)
+                if pos_ned is not None:
+                    self.local_logger.info("ATTITUDE info received")
+
+        if pos_ned is not None and attitude is not None:
+            telemetry_data = TelemetryData(
+                time_since_boot=max(pos_ned.time_boot_ms, attitude.time_boot_ms),
+                x=pos_ned.x,
+                y=pos_ned.y,
+                z=pos_ned.z,
+                x_velocity=pos_ned.vx,
+                y_velocity=pos_ned.vy,
+                z_velocity=pos_ned.vz,
+                roll=attitude.roll,
+                pitch=attitude.pitch,
+                yaw=attitude.yaw,
+                roll_speed=attitude.rollspeed,
+                pitch_speed=attitude.pitchspeed,
+                yaw_speed=attitude.yawspeed,
+            )
+            self.local_logger.info("telemetry data created")
+            return telemetry_data
+        else:
+            self.local_logger.warning("no telemetry data received")
+            return None
+
         pass
 
 
