@@ -55,7 +55,7 @@ def stop(
     """
     controller.request_exit()
     input_queue.drain_queue()
-    pass  # Add logic to stop your worker
+    # Add logic to stop your worker
 
 
 def read_queue(
@@ -70,7 +70,7 @@ def read_queue(
     while not controller.is_exit_requested():
         if not input_queue.queue.empty():
             main_logger.info(f"Info from telemetry worker: {input_queue.queue.get()}")
-    pass  # Add logic to read from your worker's output queue and print it using the logger
+    # Add logic to read from your worker's output queue and print it using the logger
 
 
 # =================================================================================================
@@ -143,7 +143,7 @@ def main() -> int:
     threading.Thread(target=read_queue, args=(controller, input_queue, main_logger)).start()
 
     telemetry_worker.telemetry_worker(
-        # Put your own arguments here
+        controller, connection, input_queue
     )
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑

@@ -30,11 +30,11 @@ class HeartbeatReceiver:
 
         try:
             return cls(cls.__private_key, connection, local_logger)
-        except Exception as e:
+        except (TypeError, ValueError) as e:
             local_logger.error(f"Failed to create heartbeat reciever: {e}")
             return None
 
-        pass  # Create a HeartbeatReceiver object
+        # Create a HeartbeatReceiver object
 
     def __init__(
         self,
@@ -78,11 +78,10 @@ class HeartbeatReceiver:
                     self.status = "Connected"
                     self.local_logger.info("The drone is connected.")
 
-        except Exception as e:
+        except ConnectionError as e:
             self.local_logger.error(f"There was a problem recieving the hearbeat: {e}")
 
         return self.status
-        pass
 
 
 # =================================================================================================

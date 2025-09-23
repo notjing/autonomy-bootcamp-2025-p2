@@ -87,10 +87,10 @@ class Telemetry:
             Telemetry(cls.__private_key, connection, local_logger)
             local_logger.info("Telemetry object created")
 
-        except Exception as e:
+        except ValueError as e:
             local_logger.error(f"Failed to create Telemetry object: {e}")
 
-        pass  # Create a Telemetry object
+        # Create a Telemetry object
 
     def __init__(
         self,
@@ -153,11 +153,9 @@ class Telemetry:
             )
             self.local_logger.info("telemetry data created")
             return telemetry_data
-        else:
-            self.local_logger.warning("no telemetry data received")
-            return None
 
-        pass
+        self.local_logger.warning("no telemetry data received")
+        return None
 
 
 # =================================================================================================

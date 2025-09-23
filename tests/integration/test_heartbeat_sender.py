@@ -51,7 +51,7 @@ def stop(controller: worker_controller.WorkerController) -> None:
     """
     controller.request_exit()
 
-    pass  # Add logic to stop your worker
+    # Add logic to stop your worker
 
 
 # =================================================================================================

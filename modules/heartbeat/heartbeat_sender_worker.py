@@ -48,7 +48,7 @@ def heartbeat_sender_worker(
     #                          ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
     # =============================================================================================
     # Instantiate class object (heartbeat_sender.HeartbeatSender)
-    sndr = heartbeat_sender.HeartbeatSender.create(connection, local_logger)
+    sndr = heartbeat_sender.HeartbeatSender.create(connection)
 
     # Main loop: do work.
     while not controller.is_exit_requested():

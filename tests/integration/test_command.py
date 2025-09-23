@@ -62,7 +62,7 @@ def stop(
     """
     controller.request_exit()
     input_queue.drain_queue()
-    pass  # Add logic to stop your worker
+    # Add logic to stop your worker
 
 
 def read_queue(
@@ -78,13 +78,12 @@ def read_queue(
         if not input_queue.queue.empty():
             main_logger.info(input_queue.queue.get())
 
-    pass  # Add logic to read from your worker's output queue and print it using the logger
+    # Add logic to read from your worker's output queue and print it using the logger
 
 
 def put_queue(
     data: [],  # Add any necessary arguments
     input_queue: queue_proxy_wrapper.QueueProxyWrapper,
-    controller: worker_controller.WorkerController,
 ) -> None:
     """
     Place mocked inputs into the input queue periodically with period TELEMETRY_PERIOD.
@@ -94,7 +93,7 @@ def put_queue(
         input_queue.queue.put(d)
         time.sleep(TELEMETRY_PERIOD)
 
-    pass  # Add logic to place the mocked inputs into your worker's input queue periodically
+    # Add logic to place the mocked inputs into your worker's input queue periodically
 
 
 # =================================================================================================

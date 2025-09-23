@@ -50,7 +50,7 @@ def telemetry_worker(
     # =============================================================================================
     # Instantiate class object (telemetry.Telemetry)
 
-    tele = telemetry.Telemetry(connection, local_logger)
+    tele = telemetry.Telemetry.create(connection, local_logger)
 
     # Main loop: do work.
 

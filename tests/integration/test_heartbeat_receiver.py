@@ -57,7 +57,7 @@ def stop(
     """
     controller.request_exit()
     input_queue.drain_queue()
-    pass  # Add logic to stop your worker
+    # Add logic to stop your worker
 
 
 def read_queue(
@@ -73,7 +73,7 @@ def read_queue(
         if not queue.queue.empty():
             main_logger.info(f"Info from heartbeat receiver {queue.queue.get()}")
 
-    pass  # Add logic to read from your worker's output queue and print it using the logger
+    # Add logic to read from your worker's output queue and print it using the logger
 
 
 # =================================================================================================

@@ -46,8 +46,8 @@ class Command:  # pylint: disable=too-many-instance-attributes
         try:
             return Command(cls.__private_key, connection, target, local_logger)
 
-        except Exception as e:
-            local_logger.error("Failed to create a Command object")
+        except (TypeError, ValueError) as e:
+            local_logger.error(f"Failed to create a Command object: {e}")
 
         return None  #  Create a Command object
 
@@ -143,6 +143,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
 
             return f"CHANGE YAW: {min(clockwise_turn, counter_clockwise_turn) * -optimal_dir}"
 
+        return "NO ACTION TAKEN"
 
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑

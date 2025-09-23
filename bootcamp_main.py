@@ -90,13 +90,13 @@ def main() -> int:
 
     # Create queues
     heartbeat_output_queue = queue_proxy_wrapper.QueueProxyWrapper(mp_manager)
-    telemetry_output_queue = queue_proxy_wrapper.QueueProxyWrapper()
-    command_output_queue = queue_proxy_wrapper.QueueProxyWrapper
+    telemetry_output_queue = queue_proxy_wrapper.QueueProxyWrapper(mp_manager)
+    command_output_queue = queue_proxy_wrapper.QueueProxyWrapper(mp_manager)
 
     # Create worker properties for each worker type (what inputs it takes, how many workers)
     # Heartbeat sender
 
-    res, heartbeat_sender_properties = worker_manager.WorkerProperties.create(
+    heartbeat_sender_properties = worker_manager.WorkerProperties.create(
         count=HEARTBEAT_SENDER_COUNT,
         target=heartbeat_sender_worker,
         work_arguments=(connection,),
@@ -108,7 +108,7 @@ def main() -> int:
 
     # Heartbeat receiver
 
-    res, heartbeat_receiver_properties = worker_manager.WorkerProperties.create(
+    heartbeat_receiver_properties = worker_manager.WorkerProperties.create(
         count=HEARTBEAT_RECEIVER_COUNT,
         target=heartbeat_receiver_worker,
         work_arguments=(connection,),
@@ -120,7 +120,7 @@ def main() -> int:
 
     # Telemetry
 
-    res, telemetry_properties = worker_manager.WorkerProperties.create(
+    telemetry_properties = worker_manager.WorkerProperties.create(
         count=TELEMETRY_COUNT,
         target=telemetry_worker,
         work_arguments=(connection,),
@@ -133,7 +133,7 @@ def main() -> int:
     # Command
     target_pos = command.Position(x=1, y=1, z=1)
 
-    res, command_properties = worker_manager.WorkerProperties.create(
+    command_properties = worker_manager.WorkerProperties.create(
         count=COMMAND_COUNT,
         target=command_worker,
         work_arguments=(connection, target_pos),
@@ -147,17 +147,17 @@ def main() -> int:
 
     managers = []
 
-    res, heartbeat_receiver_manager = worker_manager.WorkerManager.create(
+    heartbeat_receiver_manager = worker_manager.WorkerManager.create(
         heartbeat_receiver_properties, main_logger
     )
 
-    res, heartbeat_sender_manager = worker_manager.WorkerManager.create(
+    heartbeat_sender_manager = worker_manager.WorkerManager.create(
         heartbeat_sender_properties, main_logger
     )
 
-    res, telemetry_manager = worker_manager.WorkerManager.create(telemetry_properties, main_logger)
+    telemetry_manager = worker_manager.WorkerManager.create(telemetry_properties, main_logger)
 
-    res, command_manager = worker_manager.WorkerManager.create(command_properties, main_logger)
+    command_manager = worker_manager.WorkerManager.create(command_properties, main_logger)
 
     managers.append(heartbeat_sender_manager)
     managers.append(heartbeat_receiver_manager)
@@ -184,19 +184,19 @@ def main() -> int:
         try:
             hb = heartbeat_output_queue.queue.get_nowait()
             main_logger.info(f"heartbeat received {hb}")
-        except Exception as e:
+        except queue.Empty:
             pass
 
         try:
             tele_data = telemetry_output_queue.queue.get_nowait()
             main_logger.info(f"telemetry data received {tele_data}")
-        except Exception as e:
+        except queue.Empty:
             pass
 
         try:
             cmd_data = command_output_queue.queue.get_nowait()
-            main_logger.info(f"command data received {tele_data}")
-        except Exception as e:
+            main_logger.info(f"command data received {cmd_data}")
+        except queue.Empty:
             pass
 
     # Stop the processes
