@@ -142,9 +142,7 @@ def main() -> int:
     # Read the main queue (worker outputs)
     threading.Thread(target=read_queue, args=(controller, input_queue, main_logger)).start()
 
-    telemetry_worker.telemetry_worker(
-        controller, connection, input_queue
-    )
+    telemetry_worker.telemetry_worker(controller, connection, input_queue)
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================
