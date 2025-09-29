@@ -51,7 +51,7 @@ def heartbeat_sender_worker(
     res, sndr = heartbeat_sender.HeartbeatSender.create(connection)
 
     if not res:
-        local_logger.error(f"failed to create heartbeat sender")
+        local_logger.error("failed to create heartbeat sender")
     else:
         local_logger.info("heartbeat sender created successfully")
 

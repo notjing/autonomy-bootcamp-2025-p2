@@ -58,7 +58,7 @@ def heartbeat_receiver_worker(
     )
 
     if not res:
-        local_logger.error(f"failed to create heartbeat receiver")
+        local_logger.error("failed to create heartbeat receiver")
     elif res:
         local_logger.info("heartbeat receiver successfully created")
 

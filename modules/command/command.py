@@ -116,7 +116,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
         # Positive angle is counter-clockwise as in a right handed system
 
         target_yaw = math.atan2(self.target.y - telemetry_data.y, self.target.x - telemetry_data.x)
-        current_yaw = telemetry_data.yaw;
+        current_yaw = telemetry_data.yaw
 
         yaw_diff = target_yaw - current_yaw
 
@@ -151,6 +151,8 @@ class Command:  # pylint: disable=too-many-instance-attributes
             return f"CHANGE YAW: {yaw_diff_deg}"
 
         return None
+
+
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
 # =================================================================================================

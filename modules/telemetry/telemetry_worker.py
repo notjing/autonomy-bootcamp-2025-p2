@@ -53,7 +53,7 @@ def telemetry_worker(
     res, tele = telemetry.Telemetry.create(connection, local_logger)
 
     if not res:
-        local_logger.warning(f"failed to create telemetry ")
+        local_logger.warning("failed to create telemetry ")
     else:
         local_logger.info("telemetry created")
 

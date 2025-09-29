@@ -25,7 +25,9 @@ class HeartbeatSender:
         """
         Falliable create (instantiation) method to create a HeartbeatSender object.
         """
-        return True, HeartbeatSender(key=cls.__private_key, connection=connection, local_logger=logger)
+        return True, HeartbeatSender(
+            key=cls.__private_key, connection=connection, local_logger=logger
+        )
         # Create a HeartbeatSender object
 
     def __init__(

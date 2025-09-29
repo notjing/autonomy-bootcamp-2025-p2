@@ -55,7 +55,7 @@ def command_worker(
     res, cmd = command.Command.create(connection, target, local_logger)
 
     if not res:
-        local_logger.error(f"failed to create command")
+        local_logger.error("failed to create command")
     elif res:
         local_logger.info("command created successfully")
 
@@ -68,7 +68,6 @@ def command_worker(
                 res = cmd.run(tele_data)
             else:
                 local_logger.error("tele data returned none")
-
 
             if res is not None:
                 output_queue.queue.put(res)
