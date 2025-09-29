@@ -78,19 +78,21 @@ class Telemetry:
         connection: mavutil.mavfile,
         # Put your own arguments here
         local_logger: logger.Logger,
-    ) -> object | None:
+    ) -> tuple[bool, "Telemetry"] | tuple[bool, None]:
         """
         Falliable create (instantiation) method to create a Telemetry object.
         """
 
         try:
-            Telemetry(cls.__private_key, connection, local_logger)
+            ret = True, Telemetry(cls.__private_key, connection, local_logger)
             local_logger.info("Telemetry object created")
 
         except ValueError as e:
             local_logger.error(f"Failed to create Telemetry object: {e}")
+            return False, None
 
         # Create a Telemetry object
+        return ret
 
     def __init__(
         self,

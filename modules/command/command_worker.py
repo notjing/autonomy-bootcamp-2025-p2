@@ -21,9 +21,9 @@ def command_worker(
     target: command.Position,
     # Place your own arguments here
     # Add other necessary worker arguments here
-    controller: worker_controller.WorkerController,
     tele_queue: queue_proxy_wrapper.QueueProxyWrapper,
     output_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    controller: worker_controller.WorkerController,
 ) -> None:
     """
     Worker process.
@@ -52,14 +52,28 @@ def command_worker(
     # =============================================================================================
     # Instantiate class object (command.Command)
 
-    cmd = command.Command.create(connection, target, local_logger)
+    res, cmd = command.Command.create(connection, target, local_logger)
+
+    if not res:
+        local_logger.error(f"failed to create command")
+    elif res:
+        local_logger.info("command created successfully")
 
     # Main loop: do work.
     while not controller.is_exit_requested():
         if not tele_queue.queue.empty():
             tele_data = tele_queue.queue.get()
-            res = cmd.run(tele_data)
-            output_queue.queue.put(res)
+
+            if tele_data is not None:
+                res = cmd.run(tele_data)
+            else:
+                local_logger.error("tele data returned none")
+
+
+            if res is not None:
+                output_queue.queue.put(res)
+            else:
+                local_logger.info("command returned None")
 
 
 # =================================================================================================

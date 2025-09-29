@@ -1,0 +1,144 @@
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 46] Logger initialized
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | create | 88] Telemetry object created
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 58] telemetry created
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:18: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:18: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:18: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:18: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:19: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:19: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:19: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:19: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:25: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:25: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:25: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:25: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:26: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:26: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:26: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:26: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:27: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:27: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:27: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:27: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+18:10:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 133] LOCAL_POSITION_NED info received
+18:10:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 138] ATTITUDE info received
+18:10:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] telemetry data created
+18:10:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker

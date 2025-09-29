@@ -1,2 +1,2 @@
-16:23:16: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
-16:23:17: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_sender.py | main | 89] Connected!
+18:08:12: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+18:08:13: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_sender.py | main | 89] Connected!

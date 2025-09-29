@@ -194,7 +194,8 @@ def main() -> int:
             pass
 
         try:
-            cmd_data = command_output_queue.queue.get_nowait()
+            cmd_data = command_output_queue.queue.get(timeout=0.1)
+            time.sleep(0.2)
             main_logger.info(f"command data received {cmd_data}")
         except queue.Empty:
             pass
@@ -209,9 +210,9 @@ def main() -> int:
 
     main_logger.info("Queues cleared")
 
-    heartbeat_output_queue.fill_and_drain_queue()
-    telemetry_output_queue.fill_and_drain_queue()
     command_output_queue.fill_and_drain_queue()
+    telemetry_output_queue.fill_and_drain_queue()
+    heartbeat_output_queue.fill_and_drain_queue()
 
     # Clean up worker processes
 

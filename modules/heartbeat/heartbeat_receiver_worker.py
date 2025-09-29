@@ -53,9 +53,14 @@ def heartbeat_receiver_worker(
     # =============================================================================================
     # Instantiate class object (heartbeat_receiver.HeartbeatReceiver)
 
-    heartbeat_rcvr = heartbeat_receiver.HeartbeatReceiver.create(
+    res, heartbeat_rcvr = heartbeat_receiver.HeartbeatReceiver.create(
         connection=connection, local_logger=local_logger
     )
+
+    if not res:
+        local_logger.error(f"failed to create heartbeat receiver")
+    elif res:
+        local_logger.info("heartbeat receiver successfully created")
 
     # Main loop: do work.
 

@@ -1,0 +1,13 @@
+18:09:35: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | main | 42] Logger initialized
+18:09:35: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:36: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:37: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:38: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:39: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:48: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:49: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:50: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:51: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:52: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:54: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+18:09:55: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | main | 79] Passesd!

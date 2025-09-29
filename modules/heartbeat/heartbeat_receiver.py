@@ -23,16 +23,16 @@ class HeartbeatReceiver:
         connection: mavutil.mavfile,
         # Put your own arguments here
         local_logger: logger.Logger,
-    ) -> object | None:
+    ) -> tuple[bool, "HeartbeatReceiver"] | tuple[bool, None]:
         """
         Falliable create (instantiation) method to create a HeartbeatReceiver object.
         """
 
         try:
-            return cls(cls.__private_key, connection, local_logger)
+            return True, cls(cls.__private_key, connection, local_logger)
         except (TypeError, ValueError) as e:
             local_logger.error(f"Failed to create heartbeat reciever: {e}")
-            return None
+            return False, None
 
         # Create a HeartbeatReceiver object
 

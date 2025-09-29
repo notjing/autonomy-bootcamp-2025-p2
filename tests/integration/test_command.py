@@ -56,12 +56,14 @@ def start_drone() -> None:
 def stop(
     controller: worker_controller.WorkerController,  # Add any necessary arguments
     input_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
     """
     Stop the workers.
     """
     controller.request_exit()
     input_queue.drain_queue()
+    output_queue.drain_queue()
     # Add logic to stop your worker
 
 
@@ -244,16 +246,17 @@ def main() -> int:
         (
             controller,
             input_queue,
+            output_queue,
         ),
     ).start()
 
     # Put items into input queue
-    threading.Thread(target=put_queue, args=(path, input_queue, controller)).start()
+    threading.Thread(target=put_queue, args=(path, input_queue)).start()
 
     # Read the main queue (worker outputs)
-    threading.Thread(target=read_queue, args=(controller, input_queue, main_logger)).start()
+    threading.Thread(target=read_queue, args=(controller, output_queue, main_logger)).start()
 
-    command_worker.command_worker(connection, TARGET, controller, input_queue, output_queue)
+    command_worker.command_worker(connection, TARGET, input_queue, output_queue, controller)
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================
