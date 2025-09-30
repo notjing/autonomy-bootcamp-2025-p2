@@ -1,28 +1,28 @@
-18:21:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
-18:21:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | main | 139] Connected!
-18:21:31: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE_ALTITUDE: 1
-18:21:31: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE_ALTITUDE: -1
-18:21:34: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 63.43494882292201
-18:21:35: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
-18:21:35: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 116.56505117707799
-18:21:36: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 45.0
-18:21:36: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 63.43494882292201
-18:21:37: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
-18:21:37: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 26.565051177077994
-18:21:38: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 45.0
-18:21:38: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
-18:21:39: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 45.0
-18:21:39: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
-18:21:40: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 135.0
-18:21:40: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -26.565051177077994
-18:21:41: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -45.0
-18:21:41: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
-18:21:42: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -45.0
-18:21:42: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
-18:21:43: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -135.0
-18:21:43: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -63.43494882292201
-18:21:44: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
-18:21:44: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -116.56505117707799
-18:21:45: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -45.0
-18:21:45: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -63.43494882292201
-18:21:46: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
+17:19:53: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+17:19:54: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | main | 139] Connected!
+17:19:55: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE_ALTITUDE: 1
+17:19:55: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE_ALTITUDE: -1
+17:19:58: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 63.43494882292201
+17:19:59: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
+17:19:59: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 116.56505117707799
+17:20:00: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 45.0
+17:20:00: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 63.43494882292201
+17:20:01: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
+17:20:01: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 26.565051177077994
+17:20:02: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 45.0
+17:20:02: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
+17:20:03: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 45.0
+17:20:03: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 90.0
+17:20:04: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: 135.0
+17:20:04: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -26.565051177077994
+17:20:05: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -45.0
+17:20:05: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
+17:20:06: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -45.0
+17:20:06: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
+17:20:07: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -135.0
+17:20:07: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -63.43494882292201
+17:20:08: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0
+17:20:08: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -116.56505117707799
+17:20:09: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -45.0
+17:20:09: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -63.43494882292201
+17:20:10: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 81] CHANGE YAW: -90.0

@@ -47,8 +47,8 @@ def start_drone() -> None:
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 def stop(
-    controller: worker_controller.WorkerController,  # Add any necessary arguments
-    input_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    input_queue: queue_proxy_wrapper.QueueProxyWrapper,  # Add any necessary arguments
+    controller: worker_controller.WorkerController,
 ) -> None:
     """
     Stop the workers.
@@ -59,8 +59,8 @@ def stop(
 
 
 def read_queue(
-    controller: worker_controller.WorkerController,
     input_queue: queue_proxy_wrapper.QueueProxyWrapper,  # Add any necessary arguments
+    controller: worker_controller.WorkerController,
     main_logger: logger.Logger,
 ) -> None:
     """
@@ -134,13 +134,13 @@ def main() -> int:
         TELEMETRY_PERIOD * NUM_TRIALS * 2 + NUM_FAILS,
         stop,
         (
-            controller,
             input_queue,
+            controller,
         ),
     ).start()
 
     # Read the main queue (worker outputs)
-    threading.Thread(target=read_queue, args=(controller, input_queue, main_logger)).start()
+    threading.Thread(target=read_queue, args=(input_queue, controller, main_logger)).start()
 
     telemetry_worker.telemetry_worker(connection, input_queue, controller)
     # =============================================================================================

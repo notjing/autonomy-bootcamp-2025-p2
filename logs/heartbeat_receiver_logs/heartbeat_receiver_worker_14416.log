@@ -1,0 +1,14 @@
+17:17:10: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 49] Logger initialized
+17:17:10: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver_worker.py | heartbeat_receiver_worker | 63] heartbeat receiver successfully created
+17:17:10: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 79] The drone is connected.
+17:17:15: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 73] 1 heartbeats missed.
+17:17:16: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 73] 2 heartbeats missed.
+17:17:17: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 73] 3 heartbeats missed.
+17:17:18: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 73] 4 heartbeats missed.
+17:17:19: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] The drone has been disconnected.
+17:17:20: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] The drone has been disconnected.
+17:17:21: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] The drone has been disconnected.
+17:17:22: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 71] The drone has been disconnected.
+17:17:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 79] The drone is connected.
+17:17:28: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 73] 1 heartbeats missed.
+17:17:30: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_receiver.py | run | 73] 1 heartbeats missed.

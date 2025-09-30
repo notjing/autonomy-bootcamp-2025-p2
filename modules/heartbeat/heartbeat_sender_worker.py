@@ -56,7 +56,7 @@ def heartbeat_sender_worker(
         local_logger.info("heartbeat sender created successfully")
 
     # Main loop: do work.
-    while not controller.is_exit_requested():
+    while not controller.is_exit_requested() and not controller.check_pause():
         sndr.run()
         time.sleep(1.0)
 

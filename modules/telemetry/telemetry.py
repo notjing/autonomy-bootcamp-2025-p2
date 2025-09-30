@@ -125,17 +125,19 @@ class Telemetry:
         attitude = None
 
         while time.time() - initial_time < 1:
-            if pos_ned is None:
-                pos_ned = self.connection.recv_match(
-                    type="LOCAL_POSITION_NED", blocking=False, timeout=0.05
-                )
-                if pos_ned is not None:
-                    self.local_logger.info("LOCAL_POSITION_NED info received")
 
-            if attitude is None:
-                attitude = self.connection.recv_match(type="ATTITUDE", blocking=False, timeout=0.05)
-                if pos_ned is not None:
-                    self.local_logger.info("ATTITUDE info received")
+            msg = self.connection.recv_match(
+                type=["ATTITUDE", "LOCAL_POSITION_NED"], blocking=False, timeout=0.0
+            )
+
+            if msg is not None:
+                if msg.get_type() == "LOCAL_POSITION_NED":
+                    pos_ned = msg
+                elif msg.get_type() == "ATTITUDE":
+                    attitude = msg
+
+            if pos_ned and attitude:
+                break
 
         if pos_ned is not None and attitude is not None:
             telemetry_data = TelemetryData(

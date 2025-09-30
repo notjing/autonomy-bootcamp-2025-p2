@@ -64,7 +64,7 @@ def heartbeat_receiver_worker(
 
     # Main loop: do work.
 
-    while not controller.is_exit_requested():
+    while not controller.is_exit_requested() and not controller.check_pause():
         res = heartbeat_rcvr.run()
         output_queue.queue.put(res)
         time.sleep(1)

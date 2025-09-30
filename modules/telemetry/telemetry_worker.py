@@ -59,7 +59,7 @@ def telemetry_worker(
 
     # Main loop: do work.
 
-    while not controller.is_exit_requested():
+    while not controller.is_exit_requested() and not controller.check_pause():
         data = tele.run()
 
         if data is not None:

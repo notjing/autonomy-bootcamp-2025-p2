@@ -1,0 +1,51 @@
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 46] Logger initialized
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | create | 88] Telemetry object created
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 58] telemetry created
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:20: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:21: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:22: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:23: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:24: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:25: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 161] no telemetry data received
+17:12:25: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 70] no telemetry data could be sent to command worker
+17:12:26: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 161] no telemetry data received
+17:12:26: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 70] no telemetry data could be sent to command worker
+17:12:27: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 161] no telemetry data received
+17:12:27: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 70] no telemetry data could be sent to command worker
+17:12:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:28: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:29: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:30: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:31: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:31: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:31: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:31: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:32: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:32: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:32: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 158] telemetry data created
+17:12:32: [INFO] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 67] telemetry data has been sent to command worker
+17:12:33: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 161] no telemetry data received
+17:12:33: [WARNING] [C:\Users\ethan\Ethan's Code\PycharmProjects\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 70] no telemetry data could be sent to command worker

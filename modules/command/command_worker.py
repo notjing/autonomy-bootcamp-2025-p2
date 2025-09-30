@@ -60,7 +60,7 @@ def command_worker(
         local_logger.info("command created successfully")
 
     # Main loop: do work.
-    while not controller.is_exit_requested():
+    while not controller.is_exit_requested() and not controller.check_pause():
         if not tele_queue.queue.empty():
             tele_data = tele_queue.queue.get()
 
